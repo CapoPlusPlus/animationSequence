@@ -56,7 +56,7 @@ footer
 @keyframes pacmanEat
 {
 	from {left: 25%;}
-	to {left: 62%;}
+	to {left: 66%;}
 }
 
 @keyframes pacmanFadeOut
