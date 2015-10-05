@@ -8,12 +8,13 @@ div
 footer
 {
 	font-family: material;
-	font-size: 100px;
-	top: 75%;
+	font-size: 75px;
+	top: 80%;
 	position:fixed;
 	bottom: 100px;
 	text-align: center;
 	width: 100%;
+	color: #96958F;
 }
 
 #wrapper
@@ -139,7 +140,7 @@ footer
 
 img
 {
-	
+
 	height: 20%;
 	position: absolute;
 	left: 25%;
