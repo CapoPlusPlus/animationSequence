@@ -22,12 +22,12 @@ footer
 	height: 90%;
 	width: 90%;
 
-	animation-name: wrapperBounce;
-	animation-duration: 1s;
-	animation-delay: 16s;
-	animation-iteration-count: 2;
-	animation-direction: alternate;
-	animation-fill-mode: forwards;
+	animation-name: wrapperBounce, wrapperBounce2, wrapperBounce3;
+	animation-duration: .6s, .4s, .4s;
+	animation-delay: 17.1s, 18.3s, 19.1s;
+	animation-iteration-count: 2, 2, 2;
+	animation-direction: alternate, alternate, alternate;
+	animation-fill-mode: forwards, forwards, forwards;
 }
 
 #pp
@@ -38,11 +38,23 @@ footer
 
 @keyframes wrapperBounce
 {
-	0% {top: 6%;}
-	100% {top: -12%;}
+	from {top: 6%;}
+	to {top: -16%;}
 }
 
+@keyframes wrapperBounce2
+{
+	from {top: 6%;}
+	to {top: -10%;}
+}
 
+@keyframes wrapperBounce3
+{
+
+	from {top: 6%;}
+	to {top: -4%;}
+
+}
 
 @font-face
 {
