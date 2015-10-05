@@ -21,6 +21,13 @@ footer
 {
 	height: 90%;
 	width: 90%;
+
+	animation-name: wrapperBounce;
+	animation-duration: 1s;
+	animation-delay: 16s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+	animation-fill-mode: forwards;
 }
 
 #pp
@@ -28,6 +35,13 @@ footer
 	left: 64%;
 	opacity: 1;
 }
+
+@keyframes wrapperBounce
+{
+	0% {top: 6%;}
+	100% {top: -12%;}
+}
+
 
 
 @font-face

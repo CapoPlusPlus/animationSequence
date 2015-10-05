@@ -13,7 +13,7 @@
 
 		</head>
 
-		<body>
+		<body id = "everything">
 
 			<div id = "wrapper">
 				<div id = "C"> <p> C </p> </div>
@@ -36,9 +36,9 @@
 
 	<script>
 		setInterval(function() {
-					var wrapper = document.getElementById('wrapper');
-					var tmp = wrapper.innerHTML;
-					wrapper.innerHTML= tmp;
+					var animation = document.getElementById('everything');
+					var temp = animation.innerHTML;
+					animation.innerHTML= temp;
 				} // test comment for github commits
-				, 16500);// length of the whole show in milliseconds, I love stack overflow
+				, 20100);// length of the whole show in milliseconds, I love stack overflow
 	</script>
