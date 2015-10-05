@@ -37,6 +37,15 @@ footer
 	opacity: 1;
 }
 
+#qr
+{
+	margin-left: 1%;
+	margin-top: 1%;
+	height: auto;
+	width: 15%;
+
+}
+
 
 
 @keyframes wrapperBounce
