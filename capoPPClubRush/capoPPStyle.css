@@ -37,6 +37,8 @@ footer
 	opacity: 1;
 }
 
+
+
 @keyframes wrapperBounce
 {
 	from {top: 6%;}
@@ -172,7 +174,7 @@ footer
 }
 
 
-img
+#pac
 {
 
 	height: 20%;
