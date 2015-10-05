@@ -5,12 +5,13 @@ div
 	position: absolute;
 	top: 6%;
 }
+
 footer
 {
 	font-family: material;
-	font-size: 75px;
-	top: 80%;
-	position:fixed;
+	font-size: 100px;
+	top: 75%;
+	position: fixed;
 	bottom: 100px;
 	text-align: center;
 	width: 100%;
