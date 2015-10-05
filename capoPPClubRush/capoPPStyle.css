@@ -165,6 +165,12 @@ footer
 	to {left: 32%;}
 }
 
+@keyframes plusRotate
+{
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}
+
 img
 {
 
@@ -238,20 +244,24 @@ img
 
 green
 {
+	
 	color: #00933B;
-	animation-name: p1Eat, p1FadeInC;
-	animation-delay: 10.9s, 15.3s;
-	animation-duration: .1s, .7s;
+	animation-name: p1Eat, p1FadeInC, plusRotate;
+	animation-delay: 10.9s, 15.3s, 21s;
+	animation-duration: .1s, .7s, .3s;
 	animation-fill-mode: forwards;
-	animation-timing-function: linear;
+	animation-timing-function: linear, linear, linear;
+	animation-iteration-count: 1, 1, 16;
 }
 
 red
 {
+	
 	color: #F90101;
-	animation-name: p2Eat, p2FadeInC;
-	animation-delay: 11.4s, 15.3s;
-	animation-duration: .1s, .7s;
+	animation-name: p2Eat, p2FadeInC, plusRotate;
+	animation-delay: 11.4s, 15.3s, 21s;
+	animation-duration: .1s, .7s, .3s;
 	animation-fill-mode: forwards;
-	animation-timing-function: linear;
+	animation-timing-function: linear, linear, linear;
+	animation-iteration-count: 1, 1, 16;
 }
