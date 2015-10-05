@@ -1,0 +1,227 @@
+div
+{
+	font-family: material;
+	font-size: 250px;
+	position: absolute;
+	top: 6%;
+}
+
+#wrapper
+{
+	height: 90%;
+	width: 90%;
+
+}
+
+#pp
+{
+	left: 64%;
+	opacity: 1;
+}
+
+
+@font-face 
+{
+	font-family: material;
+	src: url(Roboto-Thin.ttf);
+}
+
+@keyframes CtoLeft
+{
+	from {left: 32%;}
+	to {left: 25%;}
+}
+
+@keyframes CFadeOut
+{
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
+
+@keyframes pacmanFadeIn
+{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes pacmanEat
+{
+	from {left: 25%;}
+	to {left: 62%;}
+}
+
+@keyframes pacmanFadeOut
+{
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
+
+@keyframes aEat
+{
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
+
+@keyframes pEat
+{
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
+
+@keyframes oEat
+{
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
+
+@keyframes p1Eat
+{
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
+
+@keyframes p2Eat
+{
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
+
+@keyframes cFadeInC
+{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes aFadeInC
+{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes pFadeInC
+{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes oFadeInC
+{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes p1FadeInC
+{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes p2FadeInC
+{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes cToRight
+{
+	from {left: 25%;}
+	to {left: 32%;}
+}
+
+img
+{
+	height: 20%;
+	position: absolute;
+	left: 25%;
+	top: 350px;
+	opacity: 0;
+
+	animation-name: pacmanFadeIn, pacmanEat, pacmanFadeOut;
+	animation-delay: 7.1s, 9s, 12.6s;
+	animation-duration: 1.3s, 3s, .7s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in-out;
+
+}
+
+#C
+{
+	left: 32%;
+	color: #0266C8;
+	opacity: 1;
+
+	animation-name: CtoLeft, CFadeOut, cToRight, cFadeInC;
+	animation-delay: 4.5s, 7.1s, 10s, 15.3s;
+	animation-duration: 2s, .7s, .1s, .7s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+
+}
+
+#a
+{
+	left: 41%;
+	color: #F90101;
+	opacity: 1;
+
+	animation-name: aEat, aFadeInC;
+	animation-delay: 9.8s, 15.3s;
+	animation-duration: .1s, .7s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+#p
+{
+	left: 48%;
+	color: #F2B50F;
+	opacity: 1;
+
+	animation-name: pEat, pFadeInC;
+	animation-delay: 10.2s, 15.3s;
+	animation-duration: .1s, .7s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+
+}
+
+#o
+{
+	left: 56%;
+	color: #0266C8;
+	opacity: 1;
+
+	animation-name: oEat, oFadeInC;
+	animation-delay: 10.5s, 15.3s;
+	animation-duration: .1s, .7s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+green
+{
+	color: #00933B;
+	animation-name: p1Eat, p1FadeInC;
+	animation-delay: 10.9s, 15.3s;
+	animation-duration: .1s, .7s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+red
+{
+	color: #F90101;
+	animation-name: p2Eat, p2FadeInC;
+	animation-delay: 11.4s, 15.3s;
+	animation-duration: .1s, .7s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+
+
+
+
+
+
+
