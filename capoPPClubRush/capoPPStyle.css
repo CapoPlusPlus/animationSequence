@@ -18,6 +18,12 @@ footer
 	color: #96958F;
 }
 
+#qr
+{
+	width:5%; /* you can use % */
+	height: auto;
+}
+
 #wrapper
 {
 	height: 90%;
@@ -165,7 +171,7 @@ footer
 	to {left: 32%;}
 }
 
-img
+#pacman
 {
 
 	height: 20%;
